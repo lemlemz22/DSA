@@ -10,7 +10,7 @@ public class ArrayQueueSepa {
 		
 		ArrayQueue queue = new ArrayQueue(10);
 		System.out.println("********************\n");
-		System.out.println("CURRENT QUEUE \n");
+		System.out.println("CURRENT Queue \n");
 		queue.showQueue();
 		
 				
@@ -24,11 +24,11 @@ public class ArrayQueueSepa {
 		}
 		
 		System.out.println("********************\n");
-		System.out.println("NEW QUEUE\n");
+		System.out.println("NEW Queue\n");
 		queue.showQueue();
 		
 		System.out.println("********************\n");
-		System.out.println("THIS IS THE FRONT INDEX\n");
+		System.out.println("This is your front index\n");
 		queue.peekRear();
 	
 		System.out.println("DEQUEUING\n");
