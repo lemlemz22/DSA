@@ -66,7 +66,7 @@ public class ArrayQueue {
 		}
 		
 		private void rearrangeQueue() {
-			
+				
 		}
 		
 		public int peekFront() {
