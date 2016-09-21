@@ -21,15 +21,15 @@ public class LinearSearch {
 			  array[number]=num.nextInt(1000);
 		  }
 		
-		for (int x = 0; x <= n-1; x++){
-		}
-		
 		System.out.println("Enter a number to search for: ");
 		search = in.nextInt();
 		
-		for (int number = 0; number < n; number ++){
+		for (int number = 0; number < n-1; number ++){
 			if (array[number] == search){
-				System.out.println(search + " is FOUND at " + array);
+				System.out.println(search + " is FOUND at " + number + ".");
+				break;
+			} else{
+				System.out.println("Not FOUND.");
 			}
 		}
 	}
